@@ -3,7 +3,7 @@ import Status from "./Status";
 function LiveFeed(){
   return(
     <Status
-      name="Friend Name"
+      name="Friend with Status"
       status="happy"
       />
   );

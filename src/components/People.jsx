@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 function People(props){
   return(
     <div>
+      <h3>{props.name}</h3>
       <p>{props.image}</p>
-      <p>{props.name}</p>
       <p>{props.button}</p>
     </div>
   );

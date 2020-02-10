@@ -4,8 +4,8 @@ import People from "./People";
 function Friends() {
   return(
     <People
+      name="FRIEND TO FOLLOW!"
       image="picture!"
-      name="NAME!"
       button="CLICK ME!!"
       />
     );
